@@ -1,0 +1,61 @@
+[
+  {
+    "txid": "5iXVnzARjW5CZARjTnUMepUUeQ6FiEPA2mBJd7XyehwpgkDYN3VyZZJwNVNwMNcqUpReiGZSvDn2NQYBCBj4soFf",
+    "lastValidBlockHeight": 323463589,
+    "confirmation": { "err": "None" },
+    "swapResponse": {
+      "swapTransaction": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAIDnUzRIN67nKMASIxqC50fDuomcq4+NgUIg3YtL1P4g7ITZtTT98XVB0dqDaVBduDgRMrLW+wjH3RC0/8IuJCWcqWdvvTAiwizlqnYwCxdvmcNQZqf66/l3DbMv1oZZBFMp3j6DCFpCjJWKl3dSI7u2ayJLf1wbbUWXbpUXegXjj2vxFhHutRpdt9xnFGStvnNXwna/1kqCoUqPfBff8x4DfuSIzVvI869Ejc1KCxROucbxt751l1UqOaS6X7Qq1mBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwZGb+UhFzL/7K26csOb57yM5bvF9xJrLEObOkAAAAAEedVb8jHAbu50xW7OaBUH/bGy3qP0jlECsc2iVrwTjwabiFf+q4GE+2h/Y0YYwDXaxDncGus7VZig8AAAAAABBt324ddloZPZy+FGzut5rBy0he1fWzeROoz1hX7/AKmMlyWPTiSJ8bs9ECkUjg2DC1oTmdr/EIQEjnvY2+n4WbQ/+if11/ZKdMCbHylYed5LCas238ndUUsyGqezjOXoxvp6877brTo9ZfNqq8l0MbG75MLS9uDkfKYCA0UvXWFoha8K+9ZenW9CXCPbCYjHe0vIjXXKui0wYfoKiXvM7AcHAAUC2g8CAAcACQN9FwAAAAAAAAsGAAQACQYKAQEGAgAEDAIAAAA+b3NCAAAAAAoBBAERCBgKAAQFCA0IDAgUABMRBAUPEA4KAhIBAwgj5RfLl3rjrSoBAAAAGmQAAT5vc0IAAAAApbAJCgAAAADoAwAKAwQAAAEJAbO2fpR58e0Ew3tevVaOqeq15M6XFqcrxbdio8rHSkZpBV9cZl1hAl5l",
+      "lastValidBlockHeight": 323463589,
+      "prioritizationFeeLamports": 812,
+      "computeUnitLimit": 135130,
+      "prioritizationType": {
+        "computeBudget": {
+          "microLamports": 6013,
+          "estimatedMicroLamports": 6013
+        }
+      },
+      "simulationSlot": 345252103,
+      "dynamicSlippageReport": "None",
+      "simulationError": "None",
+      "addressesByLookupTableAddress": "None"
+    },
+    "quoteResponse": {
+      "inputMint": "So11111111111111111111111111111111111111112",
+      "inAmount": "1114861374",
+      "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "outAmount": "168407205",
+      "otherAmountThreshold": "151566485",
+      "swapMode": "ExactIn",
+      "slippageBps": 1000,
+      "platformFee": "None",
+      "priceImpactPct": "0.0001340339648254779342637857",
+      "routePlan": [
+        {
+          "swapInfo": {
+            "ammKey": "8sLbNZoA1cfnvMJLPfp98ZLAnFSYCFApfJKMbiXNLwxj",
+            "label": "Raydium CLMM",
+            "inputMint": "So11111111111111111111111111111111111111112",
+            "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "inAmount": "1114861374",
+            "outAmount": "168407205",
+            "feeAmount": "93650",
+            "feeMint": "So11111111111111111111111111111111111111112"
+          },
+          "percent": 100
+        }
+      ],
+      "contextSlot": 345252103,
+      "timeTaken": 0.001268184,
+      "swapUsdValue": "168.4297803112498010317463291",
+      "simplerRouteUsed": "False",
+      "mostReliableAmmsQuoteReport": {
+        "info": {
+          "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "167920945",
+          "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "168346892"
+        }
+      },
+      "useIncurredSlippageForQuoting": "None",
+      "otherRoutePlans": "None"
+    }
+  }
+]
