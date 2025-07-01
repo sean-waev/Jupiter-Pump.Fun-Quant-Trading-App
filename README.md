@@ -142,7 +142,7 @@ JUPITER_API_ENDPOINT=https://quote-api.jup.ag
 # Configure Trading Strategy:
 Edit infiniteMoneyGlitch.py and set your public wallet address:
 
-# At the top of infiniteMoneyGlitch.py
+At the top of infiniteMoneyGlitch.py
 ```bash
 WALLET_ADDRESS = "YOUR_WALLET_ADDRESS_HERE"
 ```
