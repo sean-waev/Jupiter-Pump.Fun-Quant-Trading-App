@@ -119,8 +119,29 @@ npm run start
 ```
 
 ## Configuration
+Wallet and Proxy Setup
+Configure NestJS Environment:
+Create or edit the .env file in the nestjs-app directory:
 
-Before running, create a `.env` file in the root directory with the following variables:
+ini
+# Wallet Configuration
+WALLET_PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY_HERE
+WALLET_ADDRESS=YOUR_WALLET_ADDRESS_HERE
+
+# Proxy Configuration
+SOCKS5_PROXY=SOCKS5_PROXY_HERE  # Format: socks5://user:pass@host:port
+
+# Solana Configuration
+SOLANA_RPC_ENDPOINT=https://api.mainnet-beta.solana.com
+JUPITER_API_ENDPOINT=https://quote-api.jup.ag
+Configure Trading Strategy:
+Edit infiniteMoneyGlitch.py and set your public wallet address:
+
+python
+# At the top of infiniteMoneyGlitch.py
+WALLET_ADDRESS = "YOUR_WALLET_ADDRESS_HERE"
+
+then before running, create a `.env` file in the root directory with the following variables:
 
 ```ini
 SOLANA_RPC_ENDPOINT=https://api.mainnet-beta.solana.com
