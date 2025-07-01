@@ -128,12 +128,10 @@ Create or edit the .env file in the nestjs-app directory:
 ```bash
 WALLET_PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY_HERE
 WALLET_ADDRESS=YOUR_WALLET_ADDRESS_HERE
-```
 
 # Proxy Configuration
-```bash
-SOCKS5_PROXY=SOCKS5_PROXY_HERE  # Format: socks5://user:pass@host:port
 
+SOCKS5_PROXY=SOCKS5_PROXY_HERE  # Format: socks5://user:pass@host:port
 
 # Solana Configuration
 SOLANA_RPC_ENDPOINT=https://api.mainnet-beta.solana.com
