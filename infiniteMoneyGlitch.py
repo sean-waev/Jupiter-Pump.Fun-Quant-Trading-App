@@ -222,10 +222,17 @@ def check_token(token):
             for field in ['t_5m', 't_10m']
         )
         
-
+        # condition1 = all([
+        #     converted['t_30s'] > 30.0,
+        #     converted['t_1m'] > 40.0,
+        #     retrace_count_c1 <= 0,
+        #     converted['price'] > 15e-06,
+        #     converted['id'] not in bought_tokens,
+        #     isRequired_c1
+        # ])
+        
         condition2 = all([
             converted['price'] > 6.5e-05,
-            # converted['price'] < 6e-04,
             isRequired_NA_c2
         ])
 
@@ -240,7 +247,7 @@ def check_token(token):
 
         # Check if any condition is met
         if condition2:
-            # or condition3:
+            # or condition1 or condition3:
             condition_met = "2"
             return {
                 **converted,
