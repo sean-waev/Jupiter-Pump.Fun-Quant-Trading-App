@@ -16,7 +16,7 @@ This application is a quantitative trading system built for the Solana blockchai
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.11
 - Node.js 16+
 - npm/yarn
 - Solana CLI tools
@@ -113,8 +113,8 @@ npm run start
                                     |
                                     v
 +-----------------+       +------------------+
-| infiniteMoney   |<------|   NestJS API     |
-| Glitch          |       | (npm run start)  |
+| NestJS SwapAPI  |<------|  InfiniteMoney   |
+| (npm run start) |       |     glitch       |
 +-----------------+       +------------------+
 ```
 
@@ -135,10 +135,10 @@ RISK_FACTOR=0.02
 
 The NestJS application provides the following endpoints:
 
-- `GET /api/prices` - Get current price data
-- `POST /api/orders` - Submit a new order
-- `GET /api/positions` - Get current positions
-- `GET /api/performance` - Get strategy performance metrics
+- `GET /quote` - Get current price quote
+- `GET /execute` - execute a new swap
+- `POST /auto-sell/start` - start auto-sell trade process
+
 
 ## Monitoring
 
